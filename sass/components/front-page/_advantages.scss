@@ -1,0 +1,58 @@
+/** Секция "Наши преимущества" **/
+.advantage {
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	height: 251px;
+	padding: 0px;
+	margin-top: 94px;
+	margin-bottom: 94px;
+}
+
+.advantage > li {
+	display: block;
+}
+
+.advantage-item {
+	box-sizing: content-box;
+	margin-right: 25px;
+	margin-bottom: 94px;
+}
+
+.advantage-item:last-child {
+	margin-right: 0px;
+}
+
+.advantage-item-img {
+	width: 270px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0px;
+	border-radius: 4px;
+	align-items: center;
+	text-align: center;
+	background-color: $button-a;
+}
+
+.antenna {
+	width: 70px;
+	height: 70px;
+	margin: 0px;
+	text-align: center;
+	background-color: $button-a;
+}
+
+.advantages-headline {
+	width: 270px;
+	height: 16px;
+	margin: 30px 0px 10px 0px;
+	text-transform: uppercase;
+	color: $text-a;
+}
+
+.advantages-text {
+	width: 270px;
+	height: 75px;
+	margin: 0px;
+	color: $text-b;
+}

@@ -1,0 +1,197 @@
+.footer-box > div {
+	display: inline-block;
+}
+.space-f {
+	margin-right: 8px;
+}
+
+.container-footer {
+	display: flex;
+	width: 1200px;
+	height: 253px;
+	padding: 60px 15px;
+	margin: auto;
+}
+
+//* 1 первая колонка футера *
+.contacts-in-footer {
+	height: 81px;
+	width: 231px;
+	margin: 0px 69px 0px 0px;
+}
+
+.white {
+	color: $bg;
+}
+
+.contacts-partition,
+.little-text {
+	color: $text-b;
+}
+
+.footer-contacts-studio {
+	height: 21px;
+	width: 231px;
+	margin: 0px 69px 9px 0px;
+}
+
+.address-studio {
+	height: 21px;
+	width: 231px;
+	margin: 20px 69px 9px 0px;
+}
+
+.footer-number-studio {
+	display: inline;
+	margin: 0px 68px 0px 0px;
+}
+//* 2 колонка футера *
+.social-footer {
+	display: block;
+	margin: 0px 94px 0px 0px;
+}
+
+.social-list {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.social-list a {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+}
+
+.social-list > li {
+	margin-right: 10px;
+}
+
+.footer-form {
+	display: contents;
+}
+
+.social-footer-title {
+	width: 219px;
+	height: 16px;
+	margin-bottom: 20px;
+}
+
+.tat {
+	padding: 0px;
+}
+
+.space-social {
+	margin-right: 10px;
+}
+
+//* 3 колонка футера *
+.mail-footer {
+	width: 570px;
+	height: 86px;
+	border-radius: 4px;
+}
+
+.mail {
+	display: flex;
+	width: 200px;
+	height: 50;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	background: $button-b;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.text-title {
+	width: 219px;
+	height: 16px;
+}
+
+.white-join {
+	width: 358px;
+	height: 50px;
+	margin-right: 12px;
+	border-radius: 1px;
+}
+
+.subscription {
+	width: 571px;
+	height: 50px;
+	display: inline-flex;
+}
+//* круглые кнопки *
+* {
+	box-sizing: border-box;
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+.order-service {
+	--h: 44px;
+	width: 44px;
+}
+
+.order-service:active {
+	box-shadow: inset 0px 2px 2px $text-a;
+}
+
+.footer-social {
+	display: inline-block;
+	height: 44px;
+	width: 44px;
+	background-color: $text-c;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.footer-social:hover {
+	background-color: $button-b;
+	@extend %cubic;
+}
+
+//*--для правок цвета в footer, секции "Эффективные решения...--*
+footer {
+	background-color: $bg-footer;
+}
+
+.email {
+	width: 358px;
+	height: 50px;
+	border: 1px solid $text-b;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	background-color: $bg-footer;
+}
+//* Подписаться *
+.Subscribe {
+	width: 109px;
+	height: 30px;
+	margin: 0px;
+	display: inline-block;
+	text-align: center;
+	color: $bg;
+}
+
+.send {
+	align-items: baseline;
+	width: 24px;
+	height: 24;
+	margin-left: 10px;
+}
+//* E-mail *
+.mail-text {
+	display: flex;
+	align-items: center;
+	color: $text-b;
+}
+

@@ -1,0 +1,192 @@
+.social-logo {
+	color: $logoColor;
+}
+a {
+	text-decoration: none;
+	color: $text-a;
+}
+body {
+	background-color: $bg;
+	color: $text-a;
+	list-style: none;
+}
+
+body:hover {
+	@extend %cubic;
+}
+
+ul {
+	list-style: none;
+}
+
+section {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.none {
+	display: none;
+}
+
+.ta > li {
+	align-items: baseline;
+	display: inline;
+}
+// .x-join {
+// 	margin: 12px 0px 20px 0px;
+// }
+
+// //* цвет текста в header *
+// .nav-partition {
+// 	color: $text-a;
+// }
+// //** main-стартовая страница (WebStudio) **
+// //* секция Чем мы занимаемся *
+// .doing-title {
+// 	text-align: center;
+// 	text-transform: uppercase;
+// }
+// //***     Блочная модель    ***
+// .box-nav {
+// 	width: 153px;
+// 	height: 31px;
+// 	left: 215px;
+// 	top: 24px;
+// 	bottom: 25px;
+// }
+// //** index.html стартовая страница **
+// .actions {
+// 	display: flex;
+// 	margin: 0px;
+// 	padding: 0px;
+// 	outline: 1px solid black;
+// 	list-style: none;
+// }
+
+// .aa-icon {
+// 	width: 200px;
+// 	height: 200px;
+// 	text-align: center;
+// }
+// //* footer- правильная кнопка без ховера*
+// .overlay {
+// 	display: inline-block;
+// 	height: 44px;
+// 	width: 44px;
+// 	background-image: url(./images1/facebook1.svg);
+// 	background-color: $text-b;
+// 	background-size: 20px;
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	border-radius: 50%;
+// 	cursor: pointer;
+// }
+
+// .overlay:hover {
+// 	background-color: $button-b;
+// 	@extend %cubic;
+// }
+
+// .aq {
+// 	display: inline-block;
+// 	width: 15px;
+// 	height: 8px;
+// 	margin: 0px;
+// }
+
+// .icon-envelope {
+// 	width: 1.3330078125em;
+// }
+
+.product-title {
+	width: 370px;
+	height: 70px;
+	display: flex;
+	z-index: 1;
+	position: relative;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+// 
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+}
+
+.menu-items:not(:last-child) {
+	margin-right: 10px;
+}
+
+.menu-link {
+	outline: 1px solid black;
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: currentColor;
+}
+
+.menu-link::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: block;
+	height: 0%;
+	width: 100%;
+	background-color: transparent;
+	transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-link:hover::after {
+	opacity: 1;
+	height: 100%;
+	background-color: $bg-b;
+	@extend %cubic;
+}
+
+.menu-link>:hover {
+	color: $bg;
+	position: absolute;
+	width: 322px;
+	height: 168px;
+	margin: 63px 24px 63px 24px;
+}
+// 
+h1,
+h2 {
+	margin-top: 0;
+}
+
+//*  Radio  *
+// .radio-field,
+// .radio-label {
+// 	display: inline-flex;
+// 	align-items: center;
+// }
+
+// .radio-label {
+// 	padding: 12px 16px;
+// 	border-radius: 3px;
+// 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+// 	flex-shrink: 0;
+// 	transition: 250ms ease all;
+// }
+
+// .radio:checked ~ .radio-label {
+// 	background-color: $button-b;
+// 	color: $bg;
+// }
+
+// .mail-ph {
+// 	width: 122px;
+// 	height: 16px;
+// 	align-items: center;
+// 	color: $text-b;
+// }

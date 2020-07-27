@@ -1,0 +1,92 @@
+/**  Секция "Постоянные клиенты" regular custom   **/
+.logo-box {
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	height: 182px;
+	padding: 0px;
+	margin: 50px 0px 94px 0px;
+}
+
+.logo-partners {
+	align-items: baseline;
+	width: 170px;
+	height: 90px;
+	padding: auto;
+	margin-right: 30px;
+	outline: 1px solid $logoColor;
+	border-radius: 4px;
+}
+
+.logo-partners:hover,
+.logo-partners:focus {
+	outline: 1px solid $button-b;
+	@extend %cubic;
+}
+
+.qp {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.title-partner {
+	text-align: center;
+	color: $text-a;
+}
+
+.space-left {
+	margin-left: 15px;
+}
+/* после спрайта */
+.container-a {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 20px 62px;
+	width: 170px;
+	height: 90px;
+	cursor: pointer;
+	fill: $text-b;
+}
+
+.icons-xl {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 24px 45px;
+	width: 170px;
+	height: 90px;
+	cursor: pointer;
+	fill: $text-b;
+}
+
+.icons:hover,
+.icons:focus {
+	fill: $button-b;
+}
+
+.icons-xl:hover,
+.icons-xl:focus {
+	fill: $button-b;
+}
+
+/* стилизация icon-brand */
+#icon-brand {
+	width: 59px;
+	height: 47px;
+	fill: $logoColor;
+}
+
+#icon-brand:hover {
+	color: $button-b;
+	@extend %cubic;
+}

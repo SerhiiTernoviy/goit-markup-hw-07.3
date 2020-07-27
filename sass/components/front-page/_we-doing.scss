@@ -1,0 +1,46 @@
+/*--для Секции "Чем мы занимаемся" --*/
+.white-title {
+	background-color: $overlay;
+}
+
+.doing {
+	text-align: center;
+	color: $text-a;
+}
+
+.service > li {
+	display: inline-block;
+}
+
+.service {
+	height: 438px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.thumb {
+	position: relative;
+	margin-right: 30px;
+}
+
+.thumb > .label {
+	position: absolute;
+	display: inline-block;
+	top: 223px;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	width: 370px;
+	height: 70px;
+	text-align: center;
+	background-color: $overlay;
+	color: $bg;
+	cursor: pointer;
+}
+

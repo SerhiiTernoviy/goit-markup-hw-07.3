@@ -1,0 +1,72 @@
+/** Секция "Наша команда"  **/
+.command-section {
+	width: 1600px;
+	height: 702px;
+	padding: 94px 215px 94px 215px;
+	background-color: $button-a;
+}
+
+.field {
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	height: 422px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.unit-card {
+	width: 270px;
+	height: 422px;
+	background-color: $bg;
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+	border-radius: 0px 0px 4px 4px;
+}
+
+.center {
+	text-align: center;
+}
+
+.center > a {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+}
+
+.unit {
+	margin: 30px 0px 10px 0px;
+	text-align: center;
+}
+
+.unit-text {
+	margin: 10px 0px 16px 0px;
+	text-align: center;
+}
+
+.facebook-icon {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.facebook-icon:hover > .circle {
+	fill: $button-b;
+	@extend %cubic;
+}
+
+.circle {
+	width: 44px;
+	height: 44px;
+	fill: $text-c;
+}
+
+.letter {
+	fill: $logoColor;
+}
+
+.facebook-icon:hover>.letter {
+	fill: $bg;
+	@extend %cubic;
+}

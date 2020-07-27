@@ -1,0 +1,224 @@
+body {
+	font-family: $Ro, $ss;
+}
+
+.logo-blue,
+.black {
+	font-family: $Ra, $ss;
+}
+//***     стилизация шрифтов    ***
+//** header **
+//* logo *
+.web-studio {
+	@extend %f-sf-w;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+//* Ссылки на другие страницы и мгновенные: письмо, звонок *
+.nav-menu {
+	@extend %n500;
+	font-size: 14px;
+	line-height: 1.1;
+}
+.hero {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	letter-spacing: 0.06em;
+}
+//* Заказать услугу (текст в кнопке) *
+.hero-service {
+	@extend %f-sf-w;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.06em;
+}
+//* секция Внимание к деталям *
+.advantages-headline {
+	@extend %f-sf-w;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+}
+
+//* Идейные соображения, а также начало повседневной работы по формированию позиции. *
+.advantages-text {
+	@extend %fs-fw;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+}
+//* секция Чем мы занимаемся ** .doing используется в этом заголовке"h2" секции и 2-ух заголовках"h2" в следующих секциях *
+.doing {
+	@extend %f-sf-w;
+	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+
+.doing-title {
+	@extend %f-sf-w;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+}
+//* секции наша команда-our team *
+.unit {
+	@extend %n500;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+
+.unit-text {
+	@extend %fs-fw;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+//** main-portfolio ***<!--фильтр портфолио-->*
+.category-filter {
+	@extend %n500;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: 0.03em;
+}
+//*<!-- портфолио-->** Технокряк *
+.title {
+	@extend %f-sf-w;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.category {
+	@extend %fs-fw;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
+}
+
+.element .text {
+	@extend %fs-fw;
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 0.03em;
+}
+//** footer *** Контакты *
+.contacts {
+	@extend %fs-fw;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+}
+//* присоединяйтесь-join *
+.join {
+	@extend %f-sf-w;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+}
+//* Подписаться *
+.Subscribe {
+	@extend %f-sf-w;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.06em;
+}
+/* E-mail */
+.mail-text {
+	@extend %fs-fw;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
+}
+
+.mail-p {
+	@extend %n500;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+}
+
+.mail-ph {
+	@extend %n500;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+}
+//* 1 первая колонка футера *
+.address-studio {
+	line-height: 1.15;
+	@extend %fs-fw;
+	font-size: 14px;
+}
+
+.footer-contacts-studio {
+	@extend %fs-fw;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.footer-number-studio {
+	@extend %fs-fw;
+	font-size: 14px;
+	line-height: 1.6;
+}
+//** index.html стартовая страница **** hero **
+.text-hero {
+	font-family: $Ro;
+	@extend %f-sf-w;
+	font-size: 15px;
+	line-height: 1.9;
+	letter-spacing: 0.06em;
+}
+
+.title-partner {
+	font-family: $Ro;
+	@extend %f-sf-w;
+	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+
+.thumb > .label {
+	font-family: $ss;
+	font-size: 24px;
+}
+
+.menu-link>:hover {
+	@extend %fs-fw;
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 0.03em;
+}
+//* -------- modal -------- *
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', $Ro, $ss;
+	line-height: 1.5;
+}
+
+.form textarea {
+	font-family: inherit;
+}
+
+.margin-d {
+	font-family: $Ro;
+	@extend %f-sf-w;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.form-label,
+.form-label-comment {
+	font-size: 14px;
+}
+
+.checkbox-label {
+	font-family: $Ro;
+	@extend %fs-fw;
+	font-size: 14px;
+	line-height: 23px;
+}

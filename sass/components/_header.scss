@@ -1,0 +1,149 @@
+.ka {
+	display: flex;
+	vertical-align: middle;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ws {
+	display: inline-flex;
+	align-items: center;
+	vertical-align: top;
+	width: 1600px;
+	height: 80px;
+}
+
+.box-logo {
+	width: 153px;
+	height: 31px;
+	margin-left: 215px;
+	margin-right: 0px;
+	margin-top: 24px;
+	margin-bottom: 25px;
+}
+
+.space {
+	margin-right: 50px;
+}
+/* 2-а цвета в logo */
+.logo-blue {
+	color: $button-b;
+}
+
+.black {
+	color: $text-a;
+}
+.list {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+// .social-links {
+// 	color: $logoColor;
+// 	fill: $logoColor;
+// }
+
+// .social-links .link:hover,
+// .social-links .link:focus {
+// 	color: $logoColor;
+// 	fill: $logoColor;
+// }
+
+// .social-links a>svg,
+// .social-links a>svg {
+// 	color: $button-b;
+// 	fill: $button-b;
+// 	@extend %cubic;
+// }
+// .social-links a>svg:hover,
+// .social-links a>svg:focus {
+// 	color: $button-b;
+// 	fill: $button-b;
+// 	@extend %cubic;
+// }
+
+.link {
+	fill: $text-b;
+}
+
+.box-nav-menu {
+	min-width: 599px;
+	margin-left: 84px;
+}
+
+.box-nav-menu,
+.box-menu-nav {
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.line {
+	position: relative;
+	line-height: 80px;
+}
+
+.line a:hover:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 4px;
+	width: 100%;
+	background: $button-b;
+	border-radius: 4px;
+	@extend %cubic;
+}
+
+// 3-й блок с почтой и звонком
+.box-menu-nav {
+	width: 548px;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.space-a {
+	// margin-right: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 1rem;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.mail-p {
+	// text-decoration: none;
+	// align-items: center;
+	justify-content: center;
+	// color: $text-b;
+
+	display: block;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	// color: var(--primary-text-color);
+	color: $text-b;
+	@extend %cubic;
+}
+
+.descension {
+	// display: inline;
+	transition-property: color, fill;
+	@extend %cubic;
+}
+
+.phone {
+	// display: inline;
+	position: relative;
+	top: 2px;
+}
+
+.mail-p:hover,
+.mail-p:hover .descension {
+  fill: $button-b;
+  color: $button-b;
+}
